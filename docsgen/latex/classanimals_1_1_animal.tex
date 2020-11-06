@@ -1,0 +1,115 @@
+\hypertarget{classanimals_1_1_animal}{}\section{animals.\+Animal Class Reference}
+\label{classanimals_1_1_animal}\index{animals.\+Animal@{animals.\+Animal}}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+def \hyperlink{classanimals_1_1_animal_afe25eb4fb9bc18f517cce053f1571fa9}{\+\_\+\+\_\+init\+\_\+\+\_\+} (self, \hyperlink{classanimals_1_1_animal_a644db1debd4d9d4cbf713b8adc3fa729}{name}, \hyperlink{classanimals_1_1_animal_a1d28d49e92b8c2caa3f843bb66178adc}{sound}, \hyperlink{classanimals_1_1_animal_a2774d13fb8a51a103fae0c1363579bfe}{num\+\_\+legs}=4)
+\item 
+def \hyperlink{classanimals_1_1_animal_a7a0b18bdcafeaba01b6c2fab8ff5f471}{says} (self, \hyperlink{classanimals_1_1_animal_a1d28d49e92b8c2caa3f843bb66178adc}{sound}=None)
+\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classanimals_1_1_animal_a644db1debd4d9d4cbf713b8adc3fa729}{name}
+\item 
+\hyperlink{classanimals_1_1_animal_a1d28d49e92b8c2caa3f843bb66178adc}{sound}
+\item 
+\hyperlink{classanimals_1_1_animal_a2774d13fb8a51a103fae0c1363579bfe}{num\+\_\+legs}
+\end{DoxyCompactItemize}
+\subsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+string \hyperlink{classanimals_1_1_animal_a5de0eae30200f307e56c7d18014d818a}{says\+\_\+str} = \char`\"{}A \{\hyperlink{classanimals_1_1_animal_a644db1debd4d9d4cbf713b8adc3fa729}{name}\} \hyperlink{classanimals_1_1_animal_a7a0b18bdcafeaba01b6c2fab8ff5f471}{says} \{\hyperlink{classanimals_1_1_animal_a1d28d49e92b8c2caa3f843bb66178adc}{sound}\}\char`\"{}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\begin{DoxyVerb}A class used to represent an Animal
+
+...
+
+Attributes
+----------
+says_str : str
+    a formatted string to print out what the animal says
+name : str
+    the name of the animal
+sound : str
+    the sound that the animal makes
+num_legs : int
+    the number of legs the animal has (default 4)
+
+Methods
+-------
+says(sound=None)
+    Prints the animals name and what sound it makes
+\end{DoxyVerb}
+ 
+
+\subsection{Constructor \& Destructor Documentation}
+\index{animals\+::\+Animal@{animals\+::\+Animal}!\+\_\+\+\_\+init\+\_\+\+\_\+@{\+\_\+\+\_\+init\+\_\+\+\_\+}}
+\index{\+\_\+\+\_\+init\+\_\+\+\_\+@{\+\_\+\+\_\+init\+\_\+\+\_\+}!animals\+::\+Animal@{animals\+::\+Animal}}
+\subsubsection[{\texorpdfstring{\+\_\+\+\_\+init\+\_\+\+\_\+(self, name, sound, num\+\_\+legs=4)}{__init__(self, name, sound, num_legs=4)}}]{\setlength{\rightskip}{0pt plus 5cm}def animals.\+Animal.\+\_\+\+\_\+init\+\_\+\+\_\+ (
+\begin{DoxyParamCaption}
+\item[{}]{self, }
+\item[{}]{name, }
+\item[{}]{sound, }
+\item[{}]{num\+\_\+legs = {\ttfamily 4}}
+\end{DoxyParamCaption}
+)}\hypertarget{classanimals_1_1_animal_afe25eb4fb9bc18f517cce053f1571fa9}{}\label{classanimals_1_1_animal_afe25eb4fb9bc18f517cce053f1571fa9}
+\begin{DoxyVerb}Parameters
+----------
+name : str
+    The name of the animal
+sound : str
+    The sound the animal makes
+num_legs : int, optional
+    The number of legs the animal (default is 4)
+\end{DoxyVerb}
+ 
+
+\subsection{Member Function Documentation}
+\index{animals\+::\+Animal@{animals\+::\+Animal}!says@{says}}
+\index{says@{says}!animals\+::\+Animal@{animals\+::\+Animal}}
+\subsubsection[{\texorpdfstring{says(self, sound=\+None)}{says(self, sound=None)}}]{\setlength{\rightskip}{0pt plus 5cm}def animals.\+Animal.\+says (
+\begin{DoxyParamCaption}
+\item[{}]{self, }
+\item[{}]{sound = {\ttfamily None}}
+\end{DoxyParamCaption}
+)}\hypertarget{classanimals_1_1_animal_a7a0b18bdcafeaba01b6c2fab8ff5f471}{}\label{classanimals_1_1_animal_a7a0b18bdcafeaba01b6c2fab8ff5f471}
+\begin{DoxyVerb}Prints what the animals name is and what sound it makes.
+
+If the argument `sound` isn't passed in, the default Animal
+sound is used.
+
+Parameters
+----------
+sound : str, optional
+    The sound the animal makes (default is None)
+
+Raises
+------
+NotImplementedError
+    If no sound is set for the animal or passed in as a
+    parameter.
+\end{DoxyVerb}
+ 
+
+\subsection{Member Data Documentation}
+\index{animals\+::\+Animal@{animals\+::\+Animal}!name@{name}}
+\index{name@{name}!animals\+::\+Animal@{animals\+::\+Animal}}
+\subsubsection[{\texorpdfstring{name}{name}}]{\setlength{\rightskip}{0pt plus 5cm}animals.\+Animal.\+name}\hypertarget{classanimals_1_1_animal_a644db1debd4d9d4cbf713b8adc3fa729}{}\label{classanimals_1_1_animal_a644db1debd4d9d4cbf713b8adc3fa729}
+\index{animals\+::\+Animal@{animals\+::\+Animal}!num\+\_\+legs@{num\+\_\+legs}}
+\index{num\+\_\+legs@{num\+\_\+legs}!animals\+::\+Animal@{animals\+::\+Animal}}
+\subsubsection[{\texorpdfstring{num\+\_\+legs}{num_legs}}]{\setlength{\rightskip}{0pt plus 5cm}animals.\+Animal.\+num\+\_\+legs}\hypertarget{classanimals_1_1_animal_a2774d13fb8a51a103fae0c1363579bfe}{}\label{classanimals_1_1_animal_a2774d13fb8a51a103fae0c1363579bfe}
+\index{animals\+::\+Animal@{animals\+::\+Animal}!says\+\_\+str@{says\+\_\+str}}
+\index{says\+\_\+str@{says\+\_\+str}!animals\+::\+Animal@{animals\+::\+Animal}}
+\subsubsection[{\texorpdfstring{says\+\_\+str}{says_str}}]{\setlength{\rightskip}{0pt plus 5cm}string animals.\+Animal.\+says\+\_\+str = \char`\"{}A \{{\bf name}\} {\bf says} \{{\bf sound}\}\char`\"{}\hspace{0.3cm}{\ttfamily [static]}}\hypertarget{classanimals_1_1_animal_a5de0eae30200f307e56c7d18014d818a}{}\label{classanimals_1_1_animal_a5de0eae30200f307e56c7d18014d818a}
+\index{animals\+::\+Animal@{animals\+::\+Animal}!sound@{sound}}
+\index{sound@{sound}!animals\+::\+Animal@{animals\+::\+Animal}}
+\subsubsection[{\texorpdfstring{sound}{sound}}]{\setlength{\rightskip}{0pt plus 5cm}animals.\+Animal.\+sound}\hypertarget{classanimals_1_1_animal_a1d28d49e92b8c2caa3f843bb66178adc}{}\label{classanimals_1_1_animal_a1d28d49e92b8c2caa3f843bb66178adc}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{animals_8py}{animals.\+py}\end{DoxyCompactItemize}
